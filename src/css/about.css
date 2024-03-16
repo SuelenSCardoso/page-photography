@@ -1,0 +1,193 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(10, 10, 10) 0%, rgba(54, 50, 50, 0.8) 50%, rgb(5, 5, 5) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(79, 83, 85);
+    border-radius: 24px 80px;
+    margin: 10px;
+    width: 65%;
+    height: 60%;
+}
+
+.img-profile .img {
+    border-radius: 24px 70px;
+    height: 33rem;
+    padding: 15px;
+}
+
+.card-profile .info .photograph {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 5px 5px 10px 5px;
+}
+
+.info .about {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.info .about a:hover {
+    transition: 0.3s ease-in-out;
+    color: rgb(154, 159, 161);
+}
+
+button.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(154, 159, 161);
+}
+
+.btn:hover {
+    background-color: rgb(79, 83, 85);
+    
+}
+
+/* Respondivo */
+@media (max-width: 1024px) {
+    .card-profile {
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        justify-content: center;
+        background-color:  rgb(79, 83, 85);
+        border-radius: 24px 80px;
+        margin: 10px;
+        width: 65%;
+        height: 85%;
+    }
+
+    .img-profile .img {
+        border-radius: 24px 70px;
+        height: 30rem;
+        padding: 10px;
+    }
+
+    .card-profile .info .photograph {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    .info .about {
+        font-weight: 700;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 25px;
+    }
+
+    .info button.btn {
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:  rgb(79, 83, 85);
+        border-radius: 24px 80px;
+        margin: 10px;
+        width: 65%;
+        height: 85%;
+    }
+
+    .img-profile .img {
+        border-radius: 24px 70px;
+        height: 30rem;
+        padding: 10px;
+    }
+
+    .card-profile .info .photograph {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    .info .about {
+        margin-left: 20px;
+        font-weight: 700;
+        font-size: 15px;
+        
+    }
+
+    .info button.btn {
+        margin-left: 43%;
+        
+
+    }
+}
+
+@media (max-width: 425px) {
+    .card-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:  rgb(79, 83, 85);
+        border-radius: 24px 80px;
+        margin: 10px;
+        width: 85%;
+        height: 95%;
+    }
+
+    .img-profile .img {
+        border-radius: 24px 70px;
+        height: 26rem;
+        padding: 10px;
+    }
+
+    .card-profile .info .photograph {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    .info .about {
+        font-weight: 700;
+        font-size: 1rem;
+        margin: 5px 5px 5px 5px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    button {
+        margin-left: 140px ;
+    }
+}
+

@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgb(32, 30, 30) 0%, rgba(51, 50, 50, 0.8) 50%, rgb(51, 48, 48) 100%);
+}
+
+.container-header {
+    height: 80px;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.img {
+    width: 7rem;
+    mix-blend-mode: multiply;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+.header a:hover h1 {
+    color: rgb(154, 159, 161);
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li a {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.header nav ul li a:hover {
+    color: rgb(154, 159, 161);
+}
+
+.hero {
+    height: 85vh;
+    background: url('../images/noivos.png') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 25px;
+}
+
+.hero .title {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 35px;
+    cursor: pointer;
+    
+}
+
+.hero .title a:hover {
+    transition: 0.3s ease-in-out;
+    color: rgb(250, 250, 252);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+footer .social a {
+    margin: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+footer .social a:hover {
+    color: rgb(154, 159, 161);
+}
+
+/* Responsive */
+@media (max-width: 425px) {
+    .header .container-header {
+        height: 60px;
+    }
+
+    .header .img {
+        width: 40%;
+    }
+
+    .header .container-header .logo {
+        font-size: 16px;
+    }
+
+    .header nav ul li a {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .hero {
+        height: 88vh;
+    }
+
+    .hero .title {
+        font-size: 27px;
+    }
+
+    footer .social a {
+        margin: 10px;
+        font-size: 20px;
+    }
+}

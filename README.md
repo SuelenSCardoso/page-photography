@@ -1,6 +1,6 @@
 <h1>🚀 Anthony C. Photography 🚀</h1><br>
 
-<p>Criei esse projeto para por em prática tudo que aprendi até o momento. A pagina é simples e com algumas aplicações básicas, como por exemplo:<br>
+<p>Criei esse projeto para por em prática tudo que aprendi até o momento. A página é simples e com algumas aplicações básicas, como por exemplo:<br>
 - No formulário, os campos não preenchidos ficam vermelhos e com alerta de campo obrigatório.<br>
 - Links clicáveis para todos os atalhos das páginas. </p>
 

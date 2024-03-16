@@ -28,7 +28,7 @@
 
 ### Deployment
 
-[Projeto Pagina de um Fotográfo](https://suelenscardoso.github.io/page-photography/)
+[Projeto Anthony C. Photography](https://suelenscardoso.github.io/page-photography/)
 
 ## Técnologias Utilizadas:
 
